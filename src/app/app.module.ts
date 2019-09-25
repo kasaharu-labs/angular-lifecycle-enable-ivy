@@ -8,6 +8,7 @@ import { Child100Component } from './presenters/child100/child100.component';
 import { Child200Component } from './presenters/child200/child200.component';
 import { Child210Component } from './presenters/child210/child210.component';
 import { Child300Component } from './presenters/child300/child300.component';
+import { Child310Component } from './presenters/child310/child310.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Child300Component } from './presenters/child300/child300.component';
     Child100Component,
     Child200Component,
     Child210Component,
-    Child300Component
+    Child300Component,
+    Child310Component
   ],
   imports: [
     BrowserModule,
