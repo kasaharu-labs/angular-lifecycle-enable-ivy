@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { Child100Component } from './presenters/child100/child100.component';
+import { Child200Component } from './presenters/child200/child200.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    Child100Component
+    Child100Component,
+    Child200Component
   ],
   imports: [
     BrowserModule,
